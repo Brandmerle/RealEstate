@@ -72,8 +72,8 @@ padding: 2rem;
 
 .penthouse-container{
     display: flex;
-    justify-content:space-around;
-
+    justify-content:space-between;
+    gap: 24px;
 }
 .btn-details{
     display: block;
