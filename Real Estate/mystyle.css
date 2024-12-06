@@ -32,6 +32,10 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+.container2{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*header*/
 
@@ -72,8 +76,9 @@ padding: 2rem;
 
 .penthouse-container{
     display: flex;
-    justify-content:space-between;
-    gap: 24px;
+    justify-content:space-around;
+    align-items: center;
+    gap:12px;
 }
 .btn-details{
     display: block;
