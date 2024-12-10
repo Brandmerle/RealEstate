@@ -36,6 +36,13 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+@media(max-width: 768px){
+    .container{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 /*header*/
 
@@ -48,18 +55,75 @@ h3{
     text-align: center;
 
 }
+
+.about-site-header{
+    background-color: rgb(207, 154, 20)  ;
+    background-position: center center;
+    background-size: cover;
+    color:black;
+    height: 350px;
+    text-align: center;
+}
+.about-menu-bar{
+    display: flex;
+    justify-content: space-around;
+       align-items: center;
+    color: black ;
+}
 .menu-bar{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+}
+@media(max-width: 768px){
+    .menu-bar{
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 /*about*/
 .about-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
 
+}
+@media(max-width: 768px){
+    .about-container{
+        flex-direction: column;
+
+    }
+    h2,h3{
+        text-align: center;
+    }
+    .about-container img{
+        display: block;
+        margin-left: auto;
+        
+    }
+}
+.contact-container{
+    text-align: center;
+}
+.forms-container{
+    background-color: #dedede;
+    text-align: left;
+    margin-right:80px ;
+    margin-left: 80px;
+    gap: 20px;
+    padding 10px;
+    
+}
+.footer-container{
+    background-color: #dedede;
+    background-position: center center;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap:12px;
+    text-align: left;
+}
 /*houses*/
 .houses-item{
 background-color: #dedede;
